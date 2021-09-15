@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: opiagile-nodered
+  host: opiagile-nodered
+  disk_quota: 1024M
+  services:
+  - opiagile-nodered-cloudantNoSQLDB
